@@ -317,7 +317,7 @@ function senseChange(){
     if ( o("match").value.toLowerCase() !== currentMatch.toLowerCase() ){
         search();
     }
-    callAfterMilliseconds( senseChange,300 );
+    callAfterMilliseconds( senseChange,delay );
 }
 //===============================================
 senseChange();
