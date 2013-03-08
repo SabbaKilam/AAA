@@ -1,4 +1,5 @@
-window.onload = init;
+window.onload = function(){
+
 //objectEventHandler( window, "load", init);
 //==============DATA=======================
     var ajax = new HttpObject()
@@ -126,5 +127,5 @@ function nowShowRecord(){
     catch(err){}
 }
 //===============================================  
-
-
+init();
+};// end of window.onload
