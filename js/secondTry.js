@@ -1,4 +1,5 @@
-objectEventHandler( window, "load", init);
+window.onload = init;//  o.addEventListener(e,h);
+//objectEventHandler( window, "load", init);
 //==============DATA=======================
     var ajax = new HttpObject()
     , records = []
@@ -60,5 +61,5 @@ function nowShowRecord(){
     catch(err){}
 }
 //===============================================  
-init();  
+//init();  
 //===============================================
