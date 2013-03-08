@@ -220,7 +220,7 @@ function matchFound(i){
 //=================================================
 function clearSearch(){
     o("match").value = "";
-    o("btnClear").focus();
+    //o("btnClear").focus();
     o('matchCount').innerHTML = "0"
     o('sp').innerHTML = singularPlural("match", matchCount)    
     o('sp').innerHTML = "matches ";
